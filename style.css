@@ -6,8 +6,12 @@ body {
 h1{
     font-size: 50px;
 }
+
+h2{
+    font-size: 40px;
+}
 .orange-color {
-    color: goldenrod;
+    color: orange;
 }
 .flexible-container {
     display: flex;
@@ -41,4 +45,36 @@ h1{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 250px;
+}
+.experience-item {
+    height: 60vh;
+    width: 41%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#web-dev-experince {
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient( salmon, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    color: gray;
 }
