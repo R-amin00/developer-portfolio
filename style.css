@@ -27,6 +27,9 @@ h2{
     width: 50%;
     padding-left: 5%;
 }
+.half-width p {
+    padding-right: 100px;
+}
 .half-width img{
     width: 80%;
 }
